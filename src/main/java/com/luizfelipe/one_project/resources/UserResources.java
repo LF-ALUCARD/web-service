@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.luizfelipe.one_project.entities.User;
 
 @RestController
-@RequestMapping(value = "/Users")
+@RequestMapping(value = "/users")
 public class UserResources {
 	
 	@GetMapping
